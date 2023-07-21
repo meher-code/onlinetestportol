@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online test portol</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <button class="btn" id="quiz-start-btn">Start</button>
+
+    <form class="quiz hide" id="quiz-form">
+      <div id="quiz-container">
+    </div>
+    <div class="quiz__info">
+      <p class="quiz__time" id="quiz-timer">00:00</p>
+      <div class="button-group">
+        <button class="quiz__reset btn" id="quiz-restart-btn" data-type="warning" type="button">Restart</button>
+        <button class="quiz__next btn" data-type="primary" type="submit">Next</button>
+      </div>
+    </div>
+  </form>
+    <script src="client.js"></script>
+  </body>
+</html>
